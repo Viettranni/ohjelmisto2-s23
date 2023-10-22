@@ -33,11 +33,11 @@ nav {
 .nav-items a {
     text-decoration: none;
     color: white;
-    font-size: 50px;
+    font-size: 3em;
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 6em;
     text-align: center;
     margin: 0;
     padding: 20px;
@@ -81,7 +81,7 @@ h1 {
 
 
 .home-p {
-    font-size: 35px;
+    font-size: 2em;
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
@@ -91,7 +91,6 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    height: 60vh;
     text-align: left;
     padding: 30px 30px;
     background: black;
@@ -100,11 +99,11 @@ h1 {
 
 .product-container > div {
     flex: 1;
-    border: 2px solid white; /* Add a border to separate items */
-    margin: 0 10px; /* Add margin for spacing between items */
-    background: gray; /* Set background color between items */
-
+    border: 2px solid white;
+    margin: 0 10px;
+    background: gray;
 }
+
 
 .product-container img {
     max-width: 100%;
@@ -152,14 +151,15 @@ h1 {
 h2 {
     text-align: left;
     padding-top: 10px;
-    font-size: 35px;
+    font-size: 3em;
     font-weight: bold;
 }
 
 p {
-    font-size: 35px;
+    font-size: 2.5em;
     text-align: left;
     padding: 0px 50px;
+    max-width: 100%;
 }
 
 .left,
@@ -170,12 +170,14 @@ p {
     box-sizing: border-box;
     text-align: center;
     margin: 20px;
+    width: 40%;
+
 }
 
 .left img,
 .right img,
 .middle img {
-    width: 100%; /* Use 100% for responsive images */
+    width: 100%;
     height: auto;
 }
 
