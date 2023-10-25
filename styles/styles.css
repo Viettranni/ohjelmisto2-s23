@@ -134,6 +134,11 @@ h1 {
     padding-bottom: 100px;
 }
 
+.product-p {
+    font-size: 1.5rem;
+    color: #f0f0f0;
+}
+
 .contact-p {
     text-align: left;
 }
