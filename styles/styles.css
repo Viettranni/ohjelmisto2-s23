@@ -180,7 +180,7 @@ p {
 .middle,
 .right {
     flex: 1;
-    padding: 50px;
+    padding: 100px;
     box-sizing: border-box;
     text-align: center;
     margin: 20px;
@@ -212,4 +212,43 @@ p {
 .nav-items:hover {
     color: white;
     transition: 0.5s;
+}
+
+.burger-menu {
+    display: none;
+    background-color: #131313;
+    color: white;
+    border: none;
+    font-size: 5em;
+    cursor: pointer;
+    padding-right: 100px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav-items {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #131313;
+        text-align: center;
+        z-index: 1;
+        padding: 50px;
+    }
+
+    .nav-items.show {
+        display: flex;
+    }
+
+    .nav-items li {
+        margin: 0;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .burger-menu {
+        display: block;
+    }
 }
