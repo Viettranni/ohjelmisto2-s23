@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
     background-color: black;
     color: white;
 }
@@ -17,21 +17,23 @@ nav {
 .nav-items {
     display: flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-items li {
-    margin-left: 15rem;
-    margin-right: 2.5rem;
+    margin-left: 6rem;
+    margin-right: 1rem;
 }
 
 .nav-items a {
     text-decoration: none;
     color: white;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 #logo img {
-    max-width: 170px;
+    max-width: 20%;
     height: auto;
     border-radius: 50%;
     padding: 30px;
@@ -174,12 +176,12 @@ h1 {
 h2 {
     text-align: left;
     padding-top: 10px;
-    font-size: 3em;
+    font-size: 3vh;
     font-weight: bold;
 }
 
 p {
-    font-size: 2em;
+    font-size: 1.5vw;
     text-align: left;
     padding: 10px 20px;
     max-width: 100%;
@@ -194,7 +196,6 @@ p {
     text-align: center;
     margin: 20px;
     width: 40%;
-
 }
 
 .left img,
@@ -206,6 +207,7 @@ p {
 
 .contact-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px 80px;
 }
@@ -231,7 +233,7 @@ p {
     border: none;
     font-size: 3.5em;
     cursor: pointer;
-    padding-right: 100px;
+    padding-right: 1vw;
 }
 
 @media only screen and (max-width: 800px) {
@@ -260,5 +262,7 @@ p {
 
     .burger-menu {
         display: block;
+        padding-right: 50px;
+
     }
 }
